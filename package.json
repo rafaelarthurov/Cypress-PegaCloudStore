@@ -1,0 +1,30 @@
+{
+  "name": "pegacloudstore-cypress",
+  "version": "1.0.0",
+  "description": "Repository to save the automation of PegaCloudStore using Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "e2e": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaelarthurov/PegaCloudStore-Cypress.git"
+  },
+  "keywords": [
+    "QA",
+    "Automation",
+    "Cypress",
+    "Website",
+    "OnlineStore"
+  ],
+  "author": "rafaelarthurov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafaelarthurov/PegaCloudStore-Cypress/issues"
+  },
+  "homepage": "https://github.com/rafaelarthurov/PegaCloudStore-Cypress#readme",
+  "devDependencies": {
+    "cypress": "^11.2.0"
+  }
+}
