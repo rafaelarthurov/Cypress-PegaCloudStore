@@ -1,23 +1,25 @@
+/// <reference types="Cypress"/>
 
-describe('Just Login on Pega Cloud', ()=>{
+describe('Login on Pega Cloud', ()=>{
 
     before (()=>{
-        cy.visit('https://training.openspan.com/login')
+        cy.visit('/')
     })
 
     it('Login on PegaCloud', ()=>{
-        
-        cy.login_pega('admin', 'admin')
-        
-        /*
-        cy.get('#user_name').type('admin')
-        cy.get('#user_pass').type('admin')
-        cy.get('#login_button').click()
-        */
-        
-        /*cy.get('#alert_box').contains('News Alert:')
-        cy.get('#alert_box').should('contain', 'All packages shipped via DHL on May 20, 2013 experienced delayed delivery dates of up to 24 hours.')
-        */
+        cy.login_pega('12345', '12345')
+    })
+
+    it('Validate the News Alert message', ()=>{
+        cy.fixture('homePage.json').then((homePage)=>{
+            cy.get(homePage.NewsAlert).
+            contains('All packages shipped via DHL on May 20, 2013 experienced delayed delivery dates of up to 24 hours.')
+        })
+    })
+
+    it('Do a searching products', ()=>{
+        cy.homePage_search()
+        //cy.get('h1').contains('Chai')
     })
 
 })

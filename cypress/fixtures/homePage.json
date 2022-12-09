@@ -1,0 +1,6 @@
+{
+    "NewsAlert": "#alert_box",
+    "ProductType": "#productType",
+    "ProductList": "#productsList",
+    "SearchHomeButton": "#viewButton"
+}
