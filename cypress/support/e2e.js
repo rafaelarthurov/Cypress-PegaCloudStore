@@ -17,6 +17,7 @@
 import './commands'
 import './login'
 import './homePage'
+import './ProductDetails'
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
