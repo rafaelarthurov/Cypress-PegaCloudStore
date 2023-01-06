@@ -1,5 +1,7 @@
 {
     "UserField": "#user_name",
     "PassField": "#user_pass",
-    "SignInButton": "#login_button"
+    "SignInButton": "#login_button",
+    "PageLogo": "img", 
+    "LoginHeader": "#header_signin"
 }
