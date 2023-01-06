@@ -30,13 +30,18 @@ describe('Pega Cloud e2e test', () =>{
                     .should('have.css', 'background-color', 'rgb(31, 37, 85)')
             })                
         })
+        it('Assert the state of the elements', ()=>{
+            cy.fixture('login.json').then((login)=>{
+                cy.get(login.SignInButton)
+                    .should('be.disabled')
+            })
+        })
         it('Login on PegaCloud', ()=>{
             cy.login_pega(user, pass)
         })
     })
 
     //###################################################
-    
     context('HomePage validations and actions', ()=>{
         it('Validate the News Alert message', ()=>{
               cy.fixture('homePage.json').then((homePage)=>{
