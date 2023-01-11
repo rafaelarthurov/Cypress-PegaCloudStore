@@ -1,0 +1,8 @@
+{
+    "Home": "#products_menu > .menu_option",
+    "Products": "#acme_home > .menu_option",
+    "Order": "#orders_menu > .menu_option",
+    "Shipping": "#shippinglist_menu > .menu_option",
+    "Stores": "#store_menu > .menu_option",
+    "Inventory": "#inventory_menu > .menu_option"
+}

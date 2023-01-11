@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "alias": "Home",
+        "value": "#acme_home > .menu_option"
+    },
+    {
+        "id": 2,
+        "alias": "Products",
+        "value": "#products_menu > .menu_option"
+    },
+    {
+        "id": 3,
+        "alias": "Order",
+        "value": "#orders_menu > .menu_option"
+    },
+    {
+        "id": 4,
+        "alias": "Shipping",
+        "value": "#shippinglist_menu > .menu_option"
+    },
+    {
+        "id": 5,
+        "alias": "Stores",
+        "value": "#store_menu > .menu_option"
+    },
+    {
+        "id": 6,
+        "alias": "Inventory",
+        "value": "#inventory_menu > .menu_option"
+    }
+]

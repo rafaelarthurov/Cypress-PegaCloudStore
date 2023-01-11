@@ -2,5 +2,6 @@
     "NewsAlert": "#alert_box",
     "ProductType": "#productType",
     "ProductList": "#productsList",
-    "SearchHomeButton": "#viewButton"
+    "SearchHomeButton": "#viewButton",
+    "MainMenu_Home": "#acme_home > .menu_option"
 }
